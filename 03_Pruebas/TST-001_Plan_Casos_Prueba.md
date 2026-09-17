@@ -14,6 +14,7 @@
 
 | Versión | Fecha      | Descripción del cambio                        | Responsable    |
 | ------- | ---------- | --------------------------------------------- | -------------- |
+| 1.1     | 16/09/2026 | Agregar caso de prueba para teléfono          | Hector Morales |
 | 1.0     | 09/09/2026 | Creación del plan y casos de prueba iniciales | Equipo SoftEdu |
 
 ## 1. Propósito y Alcance
