@@ -18,13 +18,15 @@ A partir de esta línea base, cualquier modificación sobre los elementos inclui
 
 ## 2. Elementos incluidos en la línea base
 
-| Código CI | Elemento de configuración    | Versión | Estado   |
-| --------- | ---------------------------- | ------- | -------- |
-| REQ-001   | Especificación de Requisitos | 1.0     | Aprobado |
-| DIS-001   | Diseño del Sistema           | 1.0     | Aprobado |
-| SRC-001   | Gestión de Estudiantes       | 1.0     | Aprobado |
-| TST-001   | Plan y Casos de Prueba       | 1.0     | Aprobado |
-| TRA-001   | Matriz de Trazabilidad       | 1.0     | Aprobado |
+| Código CI | Elemento de configuración    | Versión | Estado   | Cambios por CR-001 |
+| --------- | ---------------------------- | ------- | -------- | ------------------- |
+| REQ-001   | Especificación de Requisitos | 1.0 → 1.1 | Aprobado | Agregar RF-05 |
+| DIS-001   | Diseño del Sistema           | 1.0 → 1.1 | Aprobado | Atributo telefono |
+| SRC-001   | Gestión de Estudiantes       | 1.0 → 1.1 | Aprobado | Parámetro telefono |
+| TST-001   | Plan y Casos de Prueba       | 1.0 → 1.1 | Aprobado | CP-05 para teléfono |
+| TRA-001   | Matriz de Trazabilidad       | 1.0 → 1.1 | Aprobado | RF-05 trazabilidad |
+
+**Nota:** Los elementos se actualizaron a v1.1 debido a la implementación de CR-001 (Agregar teléfono al estudiante) el 2026-09-23.
 
 ## 3. Relaciones de trazabilidad
 
