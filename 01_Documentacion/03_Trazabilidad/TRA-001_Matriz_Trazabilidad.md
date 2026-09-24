@@ -14,6 +14,7 @@
 
 | Versión | Fecha      | Descripción del cambio                        | Responsable    |
 | ------- | ---------- | --------------------------------------------- | -------------- |
+| 1.1     | 2026-09-23 | Agregar trazabilidad de CR-001 (RF-05)        | Hector Morales |
 | 1.0     | 09/09/2026 | Creación inicial de la matriz de trazabilidad | Equipo SoftEdu |
 
 ## 1. Objetivo
@@ -24,12 +25,13 @@ La matriz permite identificar qué elementos de configuración deben revisarse c
 
 ## 2. Matriz de trazabilidad inicial
 
-| Requisito | Descripción           | Diseño relacionado           | Código relacionado               | Prueba relacionada | Estado   |
-| --------- | --------------------- | ---------------------------- | -------------------------------- | ------------------ | -------- |
-| RF-01     | Registrar estudiante  | DIS-001 - Entidad Estudiante | SRC-001 - Gestión de Estudiantes | TST-001 / CP-01    | Completa |
-| RF-02     | Consultar estudiante  | DIS-001 - Entidad Estudiante | SRC-001 - Gestión de Estudiantes | TST-001 / CP-02    | Completa |
-| RF-03     | Registrar curso       | DIS-001 - Entidad Curso      | Pendiente de implementación      | TST-001 / CP-03    | Parcial  |
-| RF-04     | Matricular estudiante | DIS-001 - Entidad Matrícula  | Pendiente de implementación      | TST-001 / CP-04    | Parcial  |
+| Requisito | Descripción                      | Diseño relacionado           | Código relacionado               | Prueba relacionada | Estado   |
+| --------- | -------------------------------- | ---------------------------- | -------------------------------- | ------------------ | -------- |
+| RF-01     | Registrar estudiante             | DIS-001 - Entidad Estudiante | SRC-001 - Gestión de Estudiantes | TST-001 / CP-01    | Completa |
+| RF-02     | Consultar estudiante             | DIS-001 - Entidad Estudiante | SRC-001 - Gestión de Estudiantes | TST-001 / CP-02    | Completa |
+| RF-03     | Registrar curso                  | DIS-001 - Entidad Curso      | Pendiente de implementación      | TST-001 / CP-03    | Parcial  |
+| RF-04     | Matricular estudiante            | DIS-001 - Entidad Matrícula  | Pendiente de implementación      | TST-001 / CP-04    | Parcial  |
+| RF-05     | Registrar teléfono del estudiante | DIS-001 v1.1 - Entidad Estudiante | SRC-001 v1.1 - Gestión de Estudiantes | TST-001 / CP-05    | Completa |
 
 ## 3. Relación entre elementos de configuración
 

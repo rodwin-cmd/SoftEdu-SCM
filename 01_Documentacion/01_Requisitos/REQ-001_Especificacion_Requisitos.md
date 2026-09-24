@@ -1,12 +1,54 @@
-# Contenido mínimo recomendado para REQ-001
+# REQ-001 - Especificación de Requisitos de SoftEdu
 
-*Fuente: Página 16, Guía práctica - Gestión de la Configuración del Software | SoftEdu-SCM*
+## Información del elemento de configuración
 
-A continuación se detalla la estructura y el contenido mínimo recomendado para el requerimiento **REQ-001**, asegurando una correcta trazabilidad, control de cambios y especificación dentro de la Gestión de la Configuración del Software (SCM).
+- Código del CI: REQ-001
+- Nombre: Especificación de Requisitos Funcionales
+- Proyecto: SoftEdu
+- Versión: 1.1
+- Estado: Aprobado
+- Fecha: 2026-09-23
+- Responsable: Hector Morales
+
+## Historial de versiones
+
+| Versión | Fecha      | Descripción del cambio                        | Responsable    |
+| ------- | ---------- | --------------------------------------------- | -------------- |
+| 1.1     | 2026-09-23 | Agregar RF-05: Registrar teléfono de estudiante | Hector Morales |
+| 1.0     | 2026-09-09 | Creación inicial de requisitos funcionales     | Equipo SoftEdu |
 
 ---
 
-## 1. Encabezado e Identificación del Elemento de Configuración (CI)
+## 1. Requisitos Funcionales
+
+### RF-01: Registrar Estudiante
+**Descripción:** El sistema debe permitir registrar un nuevo estudiante con su identificación, nombre completo y correo electrónico.
+**Estado:** Completo - Implementado en v1.0
+
+### RF-02: Consultar Estudiante
+**Descripción:** El sistema debe permitir consultar la información de un estudiante registrado.
+**Estado:** Completo - Implementado en v1.0
+
+### RF-03: Registrar Curso
+**Descripción:** El sistema debe permitir registrar nuevos cursos.
+**Estado:** Parcial - Pendiente de implementación
+
+### RF-04: Matricular Estudiante
+**Descripción:** El sistema debe permitir matricular un estudiante en un curso.
+**Estado:** Parcial - Pendiente de implementación
+
+### RF-05: Registrar Teléfono del Estudiante
+**Descripción:** El sistema debe permitir registrar y consultar el número de teléfono de contacto del estudiante.
+**Justificación:** Se requiere un medio de contacto adicional para los estudiantes.
+**Criterios de aceptación:**
+- El teléfono debe ser un atributo opcional al registrar estudiantes
+- Debe ser posible consultar el teléfono junto con otros datos del estudiante
+- El sistema debe mantener compatibilidad con registros existentes sin teléfono
+**Estado:** Completo - Implementado en CR-001 (v1.1)
+
+---
+
+## 2. Encabezado e Identificación del Elemento de Configuración (CI)
 Esta sección inicial identifica de manera unívoca el elemento dentro del sistema de gestión de configuración:
 * **Identificador del CI:** Código único asignado al elemento (ej. `CI-REQ-001`).
 * **Proyecto:** Nombre o código del proyecto de software.
